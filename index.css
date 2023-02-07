@@ -1,0 +1,75 @@
+.d-flex {
+    display: flex;
+}
+.fd-column {
+    flex-direction: column;
+}
+.jc-btw {
+    justify-content: space-between;
+}
+.jc-around {
+    justify-content: space-around;
+}
+.ai-center {
+    align-items: center;
+}
+.jc-center {
+    justify-content: center;
+}
+.mLeft20 {
+    margin-left: 20px;
+}
+.p20 {
+    padding: 20px;
+}
+
+.conteiner {
+    height: 550px;
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.topBar {
+    height: 50px;
+    width: 100%;
+    border: 1px solid darkblue;
+}
+.lowBar {
+    height: 460px;
+    width: 98%;
+    border: 1px solid red;
+    padding: 10px;
+}
+.box {
+    height: 450px;
+    width: 50%;
+    border: 1px solid green;
+    margin: 10px;
+}
+.filterBar {
+    height: 70px;
+    width: 100%;
+    border: 1px solid mediumslateblue;
+}
+input {
+    width: 300px;
+    height: 30px;
+    margin: 20px;
+}
+button {
+    width: 200px;
+    margin: 10px;
+}
+img {
+    border: 1px solid rebeccapurple;
+    width: 40%;
+    height: 100px;
+}
+.filterInput {
+    height: 30px;
+    width: 100px;
+    margin: 40px;
+}
+.filterBtn {
+    height: 30px;
+}
