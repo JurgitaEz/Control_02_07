@@ -37,7 +37,6 @@
 .lowBar {
     height: 460px;
     width: 98%;
-    border: 1px solid red;
     padding: 10px;
 }
 .box {
@@ -65,11 +64,7 @@ img {
     width: 40%;
     height: 100px;
 }
-.filterInput {
-    height: 30px;
-    width: 100px;
-    margin: 40px;
-}
+
 .filterBtn {
     height: 30px;
 }

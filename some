@@ -1,0 +1,22 @@
+ADD RECIPE lange, susivesti inputs reikšmes
+paspaudus Add ingrediens - ingredientai ikrenta i List of ingrediens
+paspaudus Add Photo - nuotrauka ikrenta i nuotraukos div'a:
+    click "add photo" this button calls api (fetch) and gets photo from response object
+
+paspaudus Add to Preview - sukrenta is inputu Title, calories, o descriptio is api
+    When user fills all inputs he should click on "add to review" button,
+    which appends right side of screen with product review (there should be title,
+    description, tags , calories and photo visible)
+
+paspaudus Add to list - visa kortele persikelia į All recepes - recepesCArd div'a
+
+
+After product is previewed, you user clicks on ADD PRODUCT button,
+this should send product object to local storage and add it to array of products
+
+When user hoes to "All products" page, those products which are in local storage should be visible
+
+Also in 'ALL products" page should be a filter component
+which lets user to filter products. And show only those who match criteria.
+If filter inputs is empty and user clicks "filter" all products should be shown
+
