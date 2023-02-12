@@ -9,6 +9,7 @@ paspaudus Add to Preview - sukrenta is inputu Title, calories, o descriptio is a
     description, tags , calories and photo visible)
 
 paspaudus Add to list - visa kortele persikelia į All recepes - recepesCArd div'a
+    paspaudus Add to list mygtuka, JS reikia parasyti, kad .innetHTML += - sukurti HTML kortele
 
 
 After product is previewed, you user clicks on ADD PRODUCT button,

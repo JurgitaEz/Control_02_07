@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Control</title>
     <link rel="stylesheet" href="index.css">
-    <script src="allRecepies.js defer"></script>
+    <script src="allRecepies.js" defer></script>
 </head>
 <body>
 
@@ -13,14 +13,22 @@
         <a href="index.html"><h2>ADD RECIPE</h2></a>
         <h2>ALL RECIPES</h2>
     </div>
-    <div class="lowBar d-flex">
+    <div class="lowBar d-flex fd-column">
         <div class="filterBar d-flex jc-center ai-center jc-around">
             <input type="text" placeholder="Title">
             <input type="text" placeholder="Ingrediens">
             <input type="text" placeholder="Calories">
             <button class="filterBtn">FILTER</button>
         </div>
-        <div class="recepesCards d-flex p20"></div>
+        <div class="recipesCards d-flex p20">
+            <div class="box1 d-flex fd-column ai-center jc-center">
+                <h3>Title: </h3>
+                <img src="" alt="">
+                <h4>List of Ingrediens: </h4>
+                <h4>Description: </h4>
+            </div>
+        </div>
+
     </div>
 </div>
 
